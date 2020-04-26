@@ -28,7 +28,7 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix', '
 for quizNum in range(int(students)):
 	# create the quiz and answer key files.
 	quizFile = open('capitalsquiz%s.txt' % (quizNum + 1), 'w')
-	answerKeyFile = open('capitalsquiz_answers%s.text', % (quizNum + 1), 'w')
+	answerKeyFile = open('capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')
 	
 	# Write out the header for the quiz.
 	quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
